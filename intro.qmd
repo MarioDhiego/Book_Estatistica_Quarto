@@ -149,10 +149,8 @@ Rio de Janeiro, a Escola Nacional de Ciências Estatística (ENCE) e a outra con
 brasileiro, que ajudou a dar um grande salto na estatística.
 
 
-
 Na atualidade, o ensino da disciplina encontra-se presente em quase todos
 os cursos das universidades brasileiras, principalmente devido a sua obrigatoriedade na maioria das grades curriculares de ensino superior, independente da área de formação. Esta obrigatoriedade torna desafiador o ensino da estatística, uma vez que é necessário transmitir o método estatístico até mesmo a cursos onde o conhecimento matemático é menos exigido, por exemplo, em cursos nas áreas das Ciências Humanas e Sociais (LIMA et al, 2023).
-
 
 Todo este movimento só chegou ao Brasil muitos anos depois, em 1997, com a
 publicação dos PCN – Parâmetros Curriculares Nacionais –, com a preocupação
@@ -211,11 +209,113 @@ necessário que alguns conceitos sejam trabalhados desde a escola.
 :::
 
 ## Conceitos Básicos em Estatística
-### Estatística
+### Definição de Estatística
 
 É extremamente difícil definir a Estatística. O número de definições que se
 encontram é extremamente grande, tendo em vista que seu domínio é muito amplo. Assim, listam-se algumas definições formais acerca do que seria o conceito
 de Estatística.
+
+Segundo Rao (1973), a estatística pode ser definida de uma forma simples e
+objetiva. Ele define a estatística pela equação:
+
+Neste sentido, o objetivo da Estatística é analisar os dados disponíveis e que
+estão sujeitos a um certo grau de incerteza no planejamento e obtenção de resultados (RAO, 1999).
+
+Segundo Stein & Loesch (2008), a estatística é a ciência que se preocupa com
+a coleta, organização, apresentação, interpretação e análise de dados amostrais
+extraídos de uma determinada população.
+
+O dicionário Aurélio (2005) definiu a estatística como uma parte da matemática em que se investigam os processos de obtenção, organização e análise dados sobre uma população ou coleção de seres quaisquer, e os métodos de tirar
+conclusões e fazer predições com base nesses dados.
+
+De acordo com Motta & Wagner (2003), a estatística é o ramo do conhecimento
+que se destina ao estudo dos processos de obtenção, coleta, organização, apresentação, análise e interpretação dos dados numéricos ou variáveis referentes a qualquer fenômeno, sobre uma população ou amostra.
+
+
+Segundo Batanero(2011) A partir do século XX, a Estatística passou a ser considerada uma das ciências metodológica fundamentais, sendo à base de método
+científico experimental . Nessa direção, destacamos que a Estatística é uma ciência que dispõe de métodos para coleta, organização, análise e interpretação de
+dados, a fim de subsidiar a tomada de decisões (GUIMARÃES, 2008; CAZORLA et
+al, 2017). Sua importância reside no auxílio ao processo de pesquisa, que permeia
+todas as áreas do conhecimento que lidam com observações empíricas. Assim,
+podemos dizer que a Estatística é a ciência do significado e uso dos dados (CAZORLA et al, 2017). Dessa forma, não se resume a um conjunto de técnicas, uma
+vez que possibilita ao sujeito o desenvolvimento de sua autonomia e criticidade
+(LOPES, 2010).
+
+
+Por sua vez os autores Sindelar et al (2014) concordam que a Estatística está
+presente em todas as áreas da ciência, que envolvam o planejamento do experimento, a construção de modelos, a coleta, o processamento e a análises de dados e
+sua consequente transformação em informação para validar hipóteses cientificas
+sobre um fenômeno observável. Os autores destacam que dessa maneira, a Estatística pode ser pensada como a ciência de aprendizagem a partir de dados. Eles
+defendem a ideia de que a aplicação de técnica estatística a dados meteorológicos
+tem a vantagem de compactar o enorme volume de dados, e dão exemplo onde
+podem ser organizados esses dados, em uma estação, em uma simples tabela ou
+em uma equação capaz de sumariar todas as informações de modo a facilitar as
+inferências sobre dados. Para os autores a Estatística é uma coleção de métodos
+para planejar experimentos, obter dados e organizá-los, resumi-los, analisá-los,
+interpretá-los e deles extrair conclusões.
+
+Para Matsushita (2010) o primeiro entendimento necessário é que a Estatística
+é uma Ciência distinta da Matemática, e, portanto seus objetos de estudo são
+diferenciados. Mas embora Matsushita afirme que a Estatística seja uma Ciência,
+ela dá sua contribuição para Matemática e outras ciências principalmente em
+análise de dados (são usados seus conhecimentos em outras ciências). Também
+não se limita a um conjunto de elementos numéricos relativos a um fato social nem a tabelas e gráficos usados para o resumo, a organização e apresentação dos
+dados de uma pesquisa, embora este seja um aspecto da Estatística que pode ser
+facilmente percebido no cotidiano. Mas, devem-se indagar as razões, por que
+a Estatística como uma Ciência se encontra incluída no currículo Matemático
+segundo os documentos oficiais (Brasil, 1997, 1998, 2018).
+
+
+Nesse sentido, Cobb e Moore (1997) apud Lopes (2013) que partem da seguinte
+tese: a Estatística é uma ciência porque tem forças culturais, mas no contexto
+brasileiro ela não tem uma “licenciatura”, ou seja, força organizacional e por isso pede abrigo na Matemática e assim faz apresentar esse conhecimento para Educação. Os autores ao compararem o pensamento estatístico com o pensamento
+matemático e de outras ciências dizem que a estatística sabe lidar com a variabilidade dos dados onde esses dados não são apenas números, são números com
+contextos.
+
+Para Moore (2000), a Estatística constitui a ciência dos dados. O autor acrescenta ainda que: Não podemos escapar dos dados, assim como não podemos
+evitar o uso de palavras. Tal como palavras os dados não se interpretam a si mesmos, mas devem ser lidos com entendimento. Da mesma maneira que um escritor pode dispor as palavras em argumentos convincentes ou frases sem sentido,
+assim também os dados podem ser convincentes, enganosos ou simplesmente
+inócuos. A instrução numérica, a capacidade de acompanhar e compreender argumentos baseados em dados é importante para qualquer um de nós. O estudo
+da estatística é parte essencial de uma formação sólida (MOORE, 2000).
+
+Segundo Cobb e Moore (1997), na análise dos dados, o contexto fornece o significado. Para eles essa diferença tem profundas implicações para o ensino. Lopes (2013) acredita que para ensinar Estatística, não é suficiente entender a teoria matemática e os procedimentos estatísticos; é preciso fornecer ilustrações reais aos estudantes e saber como usá-los para envolver os alunos no desenvolvimento de
+seu juízo crítico.
+
+Dessa forma a Educação Estatística está centrada no estudo da compreensão
+de como as pessoas aprendem Estatística envolvendo os aspectos cognitivos e
+afetivos e o desenvolvimento de abordagens didáticas e de materiais de ensino.
+Para isso, a Educação Estatística precisa da contribuição da Educação Matemática, da Psicologia, da Pedagogia, da Filosofia, da Matemática, além da própria
+Estatística.
+
+Nesse contexto, o pensamento estatístico pode ser definido como a capacidade
+de utilizar e/ou interpretar, de forma adequada, as ferramentas estatísticas na
+solução problemas. Isto envolve o entendimento da essência dos dados e da possibilidade de fazer inferências, assim como o reconhecimento e a compreensão
+do valor da Estatística como uma disposição para pensar numa perspectiva da
+incerteza (CAZORLA et al, 2017).
+
+Assim, é possível distinguir duas concepções para a palavra ESTATÍSTICA: no
+plural (estatísticas), indica qualquer coleção de dados numéricos, reunidos com a
+finalidade de fornecer informações acerca de uma atividade qualquer. Assim, por
+exemplo, as estatísticas demográficas referem-se aos dados numéricos sobre nascimentos, falecimentos, matrimônios, desquites, etc. As estatísticas econômicas
+consistem em dados numéricos relacionados com emprego, produção, vendas e
+com outras atividades ligadas aos vários setores da vida econômica. No singular
+(Estatística), indica a atividade humana especializada ou um corpo de técnicas, ou
+ainda uma metodologia desenvolvida para a coleta, a classificação, a apresentação, a análise e a interpretação de dados quantitativos e a utilização desses dados
+para a tomada de decisões.
+
+O mundo está repleto de problemas. Para resolver a maioria deles, necessitamos de informações. Mas, que tipo de informação? Que quantidade de informações? Após obtê-las, o que fazer com elas? A Estatística trabalha com essas
+informações, associando os dados ao problema, descobrindo como e o que coletar
+de dados, assim capacitando o pesquisador (ou profissional ou cientista) a obter
+conclusões a partir dessas informações, de tal forma que possam ser entendidas
+por outras pessoas. Portanto, os métodos estatísticos auxiliam o cientista social,
+o economista, o engenheiro, o biólogo, o agrônomo e muitos outros profissionais
+a realizarem o seu trabalho com mais eficiência.
+
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
+
 
 ### Estatística Descritiva
 

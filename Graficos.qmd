@@ -364,14 +364,26 @@ evidência, o máximo e o mínimo, assim como as mudanças mais bruscas;
 se o fato exposto é estacionário;
 * Procurar descobrir a existência de possíveis ciclos periódicos, qual o período aproximado, etc.
 * Quando um gráfico for inserido em um texto, recomenda-se que este seja
-destacado tanto do texto que o precede, como do texto imediamente subsequente, por meio de três espaços simples.
+destacado tanto do texto que o precede, como do texto imediamente subsequente, por meio de três espaços simples.
 * Com relação a variação das cores num mesmo gráfico é recomendada para
-o caso de gráficos comparativos, dos quais, se dá preferência a pouca variação de cores.
+o caso de gráficos comparativos, dos quais, se dá preferência a pouca variação de cores.
 
 O verdadeiro desafio é saber apresentar os dados de forma interessante e atrativa. Contudo, construir gráficos e mapas estimulantes e cientificamente corretos não é tarefa tão fácil como pode parecer. Não basta ter os dados e saber usar os programas informáticos. É preciso saber transformá-los numa história bem contada e transmitir idéias e fenômenos que dificilmente seriam visíveis de outra forma
 
 
+## Principais Erros em um Gráfico
 
+Os problemas mais comuns que podem comprometer a efetividade de uma visualização gráfica são:
+
+* Em geral o excesso de decoração é um problema.
+* Ausência ou erro na escala de eixos.
+* Ausência de um título, marcas e indicadores.
+* Não Colocar dados suficientes na visualização de forma a contextualizar
+as informações mais relevantes apresentadas.
+* Excesso de informação.
+* Utilizar gráficos sobrepostos em escalas diferentes ou com sistemas de coordenadas distintos, o que impede uma comparação justa entre os dados.
+* Não fazer um mapeamento dos dados para marcas e atributos visuais de
+forma adequada.
 
 
 
