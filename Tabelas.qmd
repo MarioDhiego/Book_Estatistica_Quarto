@@ -1,0 +1,25 @@
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
+
+# Representação Tabular
+## Tabelas Estatísticas
+
+```{=html}
+<style>
+body{text-align: justify}
+</style>
+```
+Uma tabela é um conjunto de dados estatísticos associados a um fenômeno, dispostos numa ordem de classificação, numa organização racional e prática de apresentação. A tabela resume ou sintetiza os dados, fornecendo o máximo de informação num mínimo de espaço.
+
+A representação tabular é uma apresentação numérica dos dados. Consiste em dispor os dados em linhas e colunas distribuídos de modo ordenado, segundo algumas regras práticas adotadas pelos diversos sistemas estatísticos. As regras que prevalecem no Brasil foram fixadas pelo Conselho Nacional de Estatística.
+
+Uma vez concluída a coleta e a ordenação dos dados de uma pesquisa, deve-se apresentá-los de tal forma que o leitor consiga identificar, rapidamente, uma série de informações. Para tal, costuma-se utilizar, inicialmente uma tabela.
+
+Tabela é a forma não discursiva de apresentação de informações, representadas por dados numéricos e codificações, dispostos em uma ordem determinada, segundo as variáveis analisadas de um fenômeno
+
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::

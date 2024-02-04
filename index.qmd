@@ -1,0 +1,64 @@
+
+
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
+
+
+# Prefácio {.unnumbered}
+
+```{=html}
+<style>
+body{text-align: justify}
+</style>
+```
+
+
+A idéia de escrever um texto introdutório sobre fundamentos de estatística para gestão pública surgiu da necessidade de se divulgar o potencial dessa teoria tanto no seu aspecto estatístico-matemático quanto na sua aplicação e interpre-tação em diversas áreas do setor público.
+
+
+A importância da estatística para o gestor público pode ser vista através da sua utilização ao nível do Estado, de Organizações Sociais e Profissionais, do cidadão comum e ao nível acadêmico. Não restam dúvidas de que uma base qualificada de informações é fundamental para a adequada gestão das políticas públicas.
+
+
+A estatística fornece ferramentas importantes para que os governos possam definir melhor suas metas, avaliar sua performance, identificar seus pontos fortes e fracos e atuar na melhoria contínua das políticas públicas. Nossa maior preocupação foi a de escrever um texto que pudesse ser utilizado não só pelos estatísticos, mas também por profissionais de outras áreas. O sucesso da Estatística passa necessariamente pelo trabalho conjunto de especialistas des- sas várias áreas.
+
+
+Nossa maior preocupação foi a de escrever um texto que pudesse ser utilizado não só pelos estatísticos, mas também por profissionais de outras áreas. O sucesso da Estatística passa necessariamente pelo trabalho conjunto de especialistas dessas várias áreas.
+
+
+Muito do material e ideias apresentadas nesse livro foram desenvolvidos durante o planejamento e a análise de diversas experiências técnicas e acadêmicas, ao longo de 20 anos trabalhando na Gestão Pública Estadual.
+
+
+Devido a enorme abrangência da Estatística, procuramos detalhar os pontos mais interessantes para um texto introdutório e fornecer o maior número possível de referências bibliográficas que cobrissem os outros pontos.
+
+
+O profissional que domina os princípios estatísticos tem em suas mãos uma poderosa ferramenta que poderá ser sua aliada ao longo da carreira. As aplicações são diversas, e ter a compreensão desse contexto é a primeira grande lição.
+
+
+Este livro tem finalidade didática, sem a preocupação com o aprofundamento dos assuntos, o que provavelmente afastaria os estudantes iniciantes leigos no assunto. Para tanto, foi escrito utilizando linguagem de programação open source chamada $\LaTeX$ (é um conjunto de comandos adicionais (macros) para o código $\TeX$), elaborado em meados da década de 80 por Leslie Lamport. Em sua modernidade, utilizou-se um "Ambiente de Desenvolvimento Integrado(IDE)"para manipulação dos scripts, chamado OvearLeaf.
+
+
+Para facilitar a análise dos dados e a construção dos gráficos foram introduzidos vários exemplos elaborados com os recursos computacionais do Software Estatístico open source R4.3.1 versão 64 bit for Windows.
+
+
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
+
+
+# Agradecimentos {.unnumbered}
+
+Gostaríamos de expressar nossos mais sinceros agradecimentos a todas as pessoas que contribuíram para a produção deste livro., em especial ao Excelentíssimo Governador Helder Zaluth Barbalho por ter um visão estratétiga clara para o desenvolvimento do Estado do Pará e o compromisso com a sustentabilidade, atuando incansavelmente para o cresscimento econômico e social da região amazônica sem desconsiderara a preservação do meio ambiente e a valorização da Ciência, reconhecendo que a Estatística tem papel fundamental neste desenvolvimento siustentável almejado.
+
+Expressamos nossa gratidão à Secretaria de Segurança Pública do Estado do Pará que apoiou e, parcialmente, financiou este projeto. O compromisso com a sociedade e o desenvolvimento do setor governamental do Estado do Pará é inestimável. Esperamos que este compêndio seja um recurso valioso para todos os servidores públicos que buscam se capacitar para a tomada de decisões embasadas em dados, promovendo a governança eficiente e sustentável tão almejada em nossa Região Amazônica.
+
+Destacamos ainda nosso agradecimento à Autarquia de Trânsito do Estado do Pará (DETRAN-PA), que sob a chancela da sua Diretora geral, Dra. Renata Mirella Freitas Guimaraes de Sousa Coelho, generosamente permitiu o uso de suas dependências para importantes discussões e parte da produção deste livro. Aos Estatísticos, Alexandre Rodrigues Ramos, Analista Judiciário do TJE-PA, e Dennison Célio de Oliveira Carvalho, Professor Dr. Associado da Universidade Federal do Oeste do Pará, agradecimentos pelo gentil compartilhamento de seus conhecimentos técnicos que permitiram a revisão minuciosa deste livro. Suas sugestões e correções foram essenciais para garantir a qualidade e o bom entendimento do material apresentado. Sem a dedicação e o conhecimento compartilhados por esses indivíduos, essa obra não teria sido possível. Seus esforços e experiências enriquecem cada página deste livro, proporcionado ao leitores uma compreenção aprofundada das ferramentas estatísticas necessárias para a toamda de decisões informadas no setor público.
+
+Este Livro é dedicado a todas as pessoas que, igual a nós, são apaixonadas pela Estatística, Matemática e Linguagem de Programação R, e me incentivaram a levar o conhecimento para as gerações iniciantes.
+
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::

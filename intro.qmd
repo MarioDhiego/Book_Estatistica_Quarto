@@ -1,0 +1,301 @@
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
+
+
+# Introdução a Estatística
+## Contextualização
+
+```{=html}
+<style>
+body{text-align: justify}
+</style>
+```
+
+Na vasta extensão territorial da região amazônica a governança estatal é desafiada por uma série de questões complexas: a Inclusão social e desenvolvimento humano, acesso a serviços básicos e infraestrutura, exploração de recursos naturais, sustentabilidade da agricultura e agropecuária, conservação da biodiversidade, proteção dos direitos das comunidades indígenas, cooperação internacional e diplomacia ambiental, dentre outras.
+
+Ao explorar informações sobre setores-chave, como agricultura, turismo e indústria, podemos entender os impactos econômicos e ambientais das atividades nas mesorregiões do Estado do Pará. Ao analisar indicadores de desenvolvimento humano, como educação, renda e acesso a serviços básicos, podemos identificar desigualdades sociais e lacunas que precisam ser abordadas.
+
+Por meio da transformação e análise de dados é possível subsidiar e  formulação políticas públicas que equacionem o crescimento econômico, o desenvolvimento social e a conservação dos recursos naturais.
+
+Mas em se tratando da região Amazônica esta realidade conceitual demorou a chegar. Houve um tempo não muito distante em que a tomada de decisão era um processo árduo e moroso. Sem a ajuda de computadores e métodos estatísticos acessíveis, os primeiros profissionais se amparavam em intuição, experiência e dados coletados manualmente, muitas vezes limitados e inconsistentes. O processo era lento, sujeito a erros e enviesado por fatores subjetivos.
+
+Em novo marco de reconhecimento, há alguns anos o Departamento foi elevado à categoria de Faculdade de Estatística, evidenciando sua maturidade acadêmica e relevância para o Estado do Pará e para a região Amazônica.
+
+O conhecimento estatístico é fundamental para uso estratégico dos dados, tornando-se crucial para o conjunto de processos, mecanismos e estruturas capazes de subsidiar as melhores decisões que promovam políticas públicas sustentáveis alinhadas com o bem-estar social e a preservação ambiental.
+
+Não existe gestão eficiente sem a Estatística. Ela tem o poder de contribuir exponencialmente com a governança estatal de uma região tão emblemática para o planeta terra. Para tanto, é necessário despertar interesse, cada vez mais existente, para o entendimento e uso correto dos métodos estatísticos. 
+
+Em tempo do Big Data, encontrar “ouro”  nos dados existentes de nosso Estado é um caminho desafiador e complexo.
+
+Mas, afinal, o que é **Estatística**?
+
+
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
+
+
+## Etimologia
+
+O latim é uma língua antiga que teve uma influência significativa no desenvolvimento de várias linguas modernas, e por isso não seria diferente com a palavra estatística, que deriva do latim.
+
+Na realidade, pode-se perceber adiante que essa palavra esteve sempre atrelada
+ao aperfeiçoamento da forma de gerir nações e, mais atualmente, estados-nações.
+estatística tem raiz na expressão Statisticum Collegium, que significa (Conselho de Estado). O Conselho de Estado era uma instituição específica que existia na Alemanha durante o século XVIII, fundada pelo governo da Baviera. O Statisticum Collegium tinha a finalidade de reunir informações e realizar análises matemáticas relacionadas a assuntos públicos e governamentais. O termo Statisticum foi usado para descrever as atividades e o escopo dessa instituição.
+
+Entretanto, já no final do século XVIII, o termo alemão Statistik foi introduzido
+pelo primeira vez por Gottfried Achenwall (1749), professor da Universidade de
+Gottingen, para designar a disciplina matemática que lidava com a coleta, análise e interpretação de dados. Assim, a palavra Statistik entrou para o vocábulo
+alemão, influenciada pela evolução e adoção do termo em outros idiomas, como
+o latim e o italiano. Na Enciclopédia Britânica, o verbete Statístics apareceu em
+1797. (STIGLER, 1990).
+
+
+A palavra adquiriu o significado de coleta e classificação de dados em geral
+através de Sir John Sinclair. Um político, escritor e estatístico britânico do século XVIII e início do século XIX. Desta forma, o propósito original da Statistik era fornecer os dados a serem usados pelo governo e outras organizações.
+
+A coleta de dados sobre estados e localidades continua, em grande parte através de órgãos estatais que cuidam das estatísticas oficiais, realizadas por meio
+dos Censos. Em particular, os censos fornecem informação regular sobre as populações. De igual modo, a palavra CENSO é derivada do termo latim CENSERE,
+que significa TAXAR. (STIGLER, 1990).
+
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
+
+## Aspectos Históricos
+
+A estatística surge em conjunto com a organização das sociedades primitivas,
+que passaram a ter a necessidade do conhecimento numérico de seus recursos
+disponíveis. Sendo assim, verifica-se que as primeiras aplicações do pensamento
+estatístico estavam voltadas para o Estado, fornecendo dados demográficos e
+econômicos para a criação de políticas públicas, taxação de impostos ou para
+o (alistamento) serviço militar (EMBRAPA, 2004).
+
+A contagem desempenha papel fundamental na estatística, pois permite que
+informações quantitativas sejam registradas e representadas de forma numérica.
+Embora, inicialmente, tenha permanecido em grande parte pouco visível, até porque pouco eram as coisas que precisavam ser contadas pelos povos primitivos, o
+ato de contar história da Estatística, e o desenvolvimento da matemática e da contabilidade propiciou o desenvolvimento de um método que mais tarde se tornaria
+Ciência.
+
+Um exemplo notável de registros históricos que evidenciou o nascimento da
+Estatística remonta a 5000 a.C, quando os antigos egípicios mantinham informações quantitativas sobre prisioneiros de guerra (MEMÓRIA, 2004). Há ainda
+outros indícios arqueológicos apontando para a falta de mão-de-obra relacionada
+à construção das pirâmides.
+
+O primeiro censo que se tem notícia na história foi realizado na china, e ocorreu
+durante o reinado do imperador Yao, por volta do ano 2238 a.C. Esse censo foi
+realizado com o objetivo de coletar informações sobre a população e as lavouras
+cultivadas.
+
+Conforme relato no quarto livro do pentateuco bíblico, no tempo de Moisés,
+1400 a.C, Deus ordenara que houvesse a contagem de todos os que poderiam
+lutar - todos os homens com mais de vinte anos. Um total de 603.550 estavam
+capacitados para o serviço militar. Ainda dentro do contexto histórico religioso, a narrativa do Evangelho de Lucas aponta que José, junto com a ua esposa Maria, foram de Nazaré até Belém, local onde nasceu Jesus, para serem contados e registrados com fins de tributação e controle administrativo. Este censo foi convocado pelo Imperador romano César Augusto, que havia conquistado aquela região do Oriente Médio (ECHEVESTE et al., 2005).
+
+Conforme o Cristianismo se disseminava pelo ocidente, a convicção de que o
+futuro era moldado por um deus se consolidava entre os povos.
+Desses registros também se utilizaram as civilizações pré-colombianas dos Maias,
+Incas e Astecas (LOPES e MEIRELES, 2005).
+
+Em 1085, O Normando Guilherme, ”O Conquistador”, solicitou um levantamento estatístico da Inglaterra, que deveria conter informações sobre terras, proprietários, uso da terra, empregados e animais, dos conquistados anglo-saxões.
+
+Os resultados deste Censo foram publicados em 1086 no livro intitulado ”Domesday Book”e serviram de base para o cálculo de impostos. Na Enciclopédia
+Britânica, o verbete STATISTICS apareceu em 1797. (STIGLER, 1990).
+
+Esses primeiros dados estatísticos representam um marco significativo no desenvolvimento do campo, fornecendo uma base para a análise e compreensão
+dos eventos sociais e demográficos.
+
+
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
+
+## Formação da Estatística no Brasil
+
+A Educação Estatística tem contribuído muito para o desenvolvimento da sociedade contemporânea, proporcionando instrumentos metodológicos para levantamento de possibilidades, análises de variabilidade, melhoria das previsões e agilidade na tomada de decisões em situação de incerteza (LIMA, GIORDANO, VILHENA, 2023).
+
+Um dos registros mais antigos sobre a introdução da Estatística no Brasil é uma carta régia, datada de 8 de julho de 1800, onde o rei D. João VI solicita ao vice-rei do Estado do Brasil a remessa de dados censitários do Brasil ao reino de Portugal.
+
+Em 1808, D. João VI criou, a primeira instituição brasileira de ensino superior de tipo técnico, a Academia Real da Marinha, na cidade do Rio de Janeiro.
+Dois anos depois, é criada também a Academia Real Militar, destinada a formar
+oficiais da classe de engenheiros, geógrafos e topógrafos. Nessas instituições, o
+ensino de disciplinas de ciências exatas seria, enfim, encorajado no Brasil, inicialmente com as disciplinas de Física, Matemática e Química, e posteriormente
+com a Estatística.
+
+Em 1863, a estatística começa a ganhar espaço no campo acadêmico com bases
+acadêmicas advindas da França, com a criação da cadeira de “Economia Política,
+Estatística e Princípios de Direito Administrativo” na Escola Central, à época
+lecionada por José Maria Paranhos, futuro Visconde de Rio Branco.
+No ano de 1872, houve o primeiro censo geral da população brasileira feito
+por José Maria da Silva Paranhos, conhecido como Visconde do Rio Branco (1819-
+1880).
+
+Em 1934, foi criada a Faculdade de Filosofia, Ciências e Letras - FFCL da Universidade de São Paulo – USP, nascendo a cadeira de Estatística Geral e Aplicada pertencentes aos cursos oriundos das Ciências Sociais e Pedagogia (PEREIRA e MORETTIN, 1991).
+
+Em 1936, tem-se a criação do Instituto Brasileiro de Geográfia e Estatística
+(IBGE), tornandos-se o Orgão máximo de todas as atividades estatísticas, que
+envolvem a sociedade Brasileira.
+
+Em meados de 1946, a Faculdade de Filosofia, Ciências e Letras - FFCL
+da Universidade de São Paulo – USP, regulamentou a primeira turma de Pósgraduação em Estatística do Brasil (LOPES, 1988).
+
+Em 1953 duas escolas iniciaram o ensino de estatística no Brasil: uma no
+Rio de Janeiro, a Escola Nacional de Ciências Estatística (ENCE) e a outra conhecida como Escola de Estatística da Bahia. O surgimento da ideia de acrescentar a Estatística no ensino da matemática nas escolas ocorreu em 1970 na primeira conferência do Comprehensive School Mathematics Program, onde foi proposto que no currículo da matemática fossem incluídas noções de estatística e probabilidade desde o curso secundário. Só em 1972 que surge o primeiro computador
+brasileiro, que ajudou a dar um grande salto na estatística.
+
+
+
+Na atualidade, o ensino da disciplina encontra-se presente em quase todos
+os cursos das universidades brasileiras, principalmente devido a sua obrigatoriedade na maioria das grades curriculares de ensino superior, independente da área de formação. Esta obrigatoriedade torna desafiador o ensino da estatística, uma vez que é necessário transmitir o método estatístico até mesmo a cursos onde o conhecimento matemático é menos exigido, por exemplo, em cursos nas áreas das Ciências Humanas e Sociais (LIMA et al, 2023).
+
+
+Todo este movimento só chegou ao Brasil muitos anos depois, em 1997, com a
+publicação dos PCN – Parâmetros Curriculares Nacionais –, com a preocupação
+com o ensino de Estatística, bem como o seu enfoque se fez presente já nos anos
+iniciais do Ensino Fundamental, constituindo-se, assim, em um grande avanço
+para o ensino de Estatística. Nesse documento, foi incorporado oficialmente o
+“Tratamento da Informação” como um dos blocos de conteúdos da estrutura curricular de Matemática (VILAS BÔAS; KONTI, 2018).
+
+De fato, com a publicação dos PCN, o ensino brasileiro de Estatística expandiu
+suas fronteiras e a pesquisa passou a precisar dar conta da ampliação da região
+de inquérito trazida pelas novas demandas. A realização da primeira conferência
+internacional em Florianópolis fora palco de encontro e congregação de educadores estatísticos interessados em dar corpo a uma comunidade científica estruturada com vistas a obter avanços na pesquisa relacionada ao ensino da Estatística
+(SANTOS, 2015).
+
+Para Samá (2019) no Brasil, no final da década de 1990, com a publicação dos
+Parâmetros Curriculares Nacionais, a Estatística e a Probabilidade passam a integrar oficialmente a estrutura curricular da disciplina de Matemática na Educação Básica. Este fato impulsionou as pesquisas na área da Educação Estatística, no sentido de contribuir com a inserção dos conceitos relativos à Estatística e à Probabilidade na escola e na formação dos professores que, na maioria, não foram preparados para tanto nos cursos de licenciatura.
+
+A fim de integrar os pesquisadores interessados na área, em 2000, é criado o
+grupo de trabalho em Ensino de Estatística e Probabilidade - GT12, durante o primeiro Seminário Internacional de Pesquisa em Educação Matemática (SIPEM),
+promovido pela Sociedade Brasileira de Educação Matemática (SBEM). Este GT
+foi concebido no intuito de estudar os processos referentes ao ensino e à aprendizagem de Estatística, o que, segundo ementa do GT12, envolve aspectos cognitivos e afetivos, além da epistemologia dos conceitos estatísticos e o desenvolvimento de estratégias didáticas com vistas a desenvolver o letramento estatístico.
+
+
+De acordo com Vilas Bôas e Konti (2018), nos últimos anos, muitos educadores matemáticos e estatísticos têm dedicado grandes segmentos de suas carreiras
+para aprimorar os materiais e técnicas pedagógicas para a educação estatística.
+Esse movimento pode ser considerado como base para o que se denomina atualmente de Educação Estatística. Hoje podemos dizer que a Educação Estatística,
+enquanto área de pesquisa, objetiva estudar e compreender a forma como as pessoas ensinam e aprendem estatística, englobando a epistemologia dos conceitos
+estatísticos, os aspectos cognitivos e afetivos do ensino e da aprendizagem, bem
+como o desenvolvimento de metodologias e materiais para o ensino.
+
+
+Em 2017, tivemos a promulgação da Base Nacional Comum Curricular - BNCC
+na qual a incerteza e o tratamento de dados são estudados na unidade temática
+Probabilidade e Estatística. Como proposta apresenta caráter normativo, estabelecida pela Resolução CNE/CP 2/2017, onde a Estatística e Probabilidade compõem a Unidade Temática na área do conhecimento matemático a ser desenvolvido ao longo da educação Básica.
+
+A incerteza e o tratamento de dados são estudados na unidade temática Probabilidade e estatística. Ela propõe a abordagem de conceitos, fatos e procedimentos presentes em muitas situações-problema da vida cotidiana, das ciências e da tecnologia. Assim, todos os cidadãos precisam desenvolver habilidades para coletar, organizar, representar, interpretar e analisar dados em uma variedade de contextos, de maneira a fazer julgamentos bem fundamentados e tomar as decisões adequadas. Isso inclui raciocinar e utilizar conceitos, representações e índices estatísticos para descrever, explicar e predizer fenômenos (BRASIL, 2017).
+
+Dessa forma, constitui-se em num grande avanço para o ensino de Estatística
+no Ensino fundamental. Em suas diretrizes há a intenção do desenvolvimento
+de competências para o pensamento e raciocínio estatístico, contribuindo, certamente, para a formação de cidadãos mais conscientes sobre as informações que
+circulam no meio educacional e no mundo. Estas perspectivas apontam que as
+pessoas saibam tomar decisões, diante de questões políticas e sociais, pois delas
+também dependem da leitura e interpretação de informações complexas, muitas
+vezes contraditórias.
+
+Nesse desenvolvimento o estudo de algumas noções ganha espaço no ensino
+nos anos iniciais, como: tabelas, gráficos, quadros, pesquisa etc. e a noção de
+chance de mais provável, pouco provável, acontecerá com certeza, talvez aconteça, é impossível de acontecer etc. ligadas à introdução de ideias de probabilidade. “Contudo, os professores que lecionam Matemática nos anos iniciais confessam que, quando estudaram Estatísticas e Probabilidade, nos cursos de Pedagogia ou em Matemática, não viram esses conteúdos como objetos a serem ensinados na escola básica, especialmente para alunos da educação infantil e anos iniciais” (LOPES, 2008). Assim os professores em exercício grande parte não tiveram formação adequada para tratar o assunto e em formação continuada se apropriam de métodos de como proceder para lecionar sem se aprofundar nos conhecimentos de base para terem domínio que os possibilitem criarem e não só compilarem tarefas(LIMA et al, 2023).
+
+Diante disso, para que o cidadão sobre-viva e assimile este mar de estatística é
+necessário que alguns conceitos sejam trabalhados desde a escola.
+
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
+
+## Conceitos Básicos em Estatística
+### Estatística
+
+É extremamente difícil definir a Estatística. O número de definições que se
+encontram é extremamente grande, tendo em vista que seu domínio é muito amplo. Assim, listam-se algumas definições formais acerca do que seria o conceito
+de Estatística.
+
+### Estatística Descritiva
+
+É comum o profissional ou pesquisador defrontar-se com a situação de dispor
+de tantos dados que se torna difícil absorver completamente a informação que
+está procurando investigar. Com isso, se torna extremamente difícil captar intuitivamente todas as informações que os dados contêm, sendo necessário, portanto, que as informações sejam reduzidas até o ponto em que se possa interpretá-las mais claramente (MARTINS e DONAIRE, 1979).
+
+A Estatística Descritiva é um ramo da estatística que aplica várias técnicas para descrever e sumariar um conjunto de dados(TOLEDO e OVALLE, 1995).
+Stein e Loesch (2008) definem a estatística descritiva como o nome dado ao
+conjunto de técnicas analíticas utilizadas para resumir certo conjunto de todos
+os dados coletados numa determinada investigação.
+
+É a parte da estatística que procura descrever e avaliar certo grupo de dados
+seja ele a população ou a amostra. Em estatística descritiva têm-se dois métodos
+que podem ser usados para a apresentação dos dados: Métodos Gráficos e/ou
+Tabular e Métodos Numéricos, envolvendo apresentação de medidas estatísticas,
+entre outras.
+
+O objetivo da Estatística Descritiva é representar de uma forma concisa, sintética e compreensível, a informação contida num conjunto de dados. Esta tarefa, que adquire grande importância quando o volume de dados for grande,
+concretiza-se na elaboração de tabelas e de gráficos, e no cálculo de medidas ou indicadores que representam convenientemente a informação contida nos dados.
+A descrição dos dados também tem como objetivo identificar anomalias, até
+mesmo resultante do registro incorreto de valores, e dados dispersos, aqueles
+que não seguem a tendência geral do restante do conjunto. Não só nos artigos
+técnicos direcionados para pesquisadores, mas também nos artigos de jornais e
+revistas escritos para o público leigo, é cada vez mais freqüente a utilização destes recursos de descrição para complementar a apresentação de um fato, justificar ou referendar um argumento.
+
+Ao se condensar os dados, perde-se informação, pois não se têm as observações originais. Entretanto, esta perda de informação é pequena se comparada
+ao ganho que se tem com a clareza da interpretação proporcionada. Ao mesmo
+tempo que o uso das ferramentas estatísticas vem crescendo, aumenta também o
+abuso de tais ferramentas.
+
+É muito comum vermos em jornais e revistas, até mesmo em periódicos científicos, gráficos voluntariamente ou intencionalmente enganosos e estatísticas obscuras para justificar argumentos polêmicos.
+
+Assim, uma análise descritiva bem conduzida pode evitar vários problemas
+que podem ocorrer em análises mais complexas, permitindo visualizar muitas
+características que em outras análises podem passar despercebidas (CAMEY, et
+al, 2010).
+
+
+
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
+
+
+### Estatística Indutiva
+
+Na maioria das vezes, é impraticável observar toda uma população, seja pelo
+custo alto seja por dificuldades operacionais. Examina-se então uma amostra, de
+preferência bastante representativa, para que os resultados obtidos possam ser
+generalizados para toda a população. Um experimento pode ter por finalidade
+a determinação da estimativa de um parâmetro de uma função. Toda conclusão
+tirada por amostragem, quando generalizada para a população, apresentará um
+grau de incerteza. Ao conjunto de técnicas e procedimentos que permitem dar ao
+pesquisador um grau de confiabilidade nas afirmações que faz para a população,
+baseadas nos resultados das amostras, damos o nome de Inferência Estatística.
+
+A estatística indutiva ou inferencial é a parte da estatística que, baseando-se
+em resultados obtidos da análise de uma amostra da população, procura inferir,
+induzir ou estimar as leis de comportamento da população da qual a amostra foi
+retirada. Refere-se a um processo de generalização a partir de resultados particulares (CASTANHEIRA, 2005).
+
+Por exemplo, suponha-se que deseja conhecer o grau de pureza de alumina a
+ser exportada por um navio no porto de Manaus. Como não se pode verificar esse
+grau de pureza em toda a população do minério, se pega uma parte como amostra e procedem-se na mesma os testes necessários. Suponha-se que o resultado
+obtido nesse teste é válido para toda a população.
+
+Esse processo de generalização, que é caracterizado do método indutivo, está
+associado a uma margem de incerteza, que se deve ao fato de que a conclusão,
+que se pretende obter para toda a população analisada, baseia-se em uma amostra
+do total de observações. A medida de incerteza é tratada mediante técnicas e
+métodos que se fundamentam na teoria das probabilidades.
+
+Em suma, para o estabelecimento de inferências ou conclusões sobre um grupo
+maior (no caso a população) precisa-se usar algo além do que será visto em Estatística Descritiva, é necessário o uso de métodos estatísticos que caracterize a área da estatística conhecida como ”Estatística Indutiva”ou ”Inferência Estatística”.
+
+
+
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::

@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.433">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Fundamentos de Estatística - 1&nbsp; Introdução a Estatística</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./Tabelas.html" rel="next">
+<link href="./index.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://hypothes.is/embed.js"></script>
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./intro.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introdução a Estatística</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Fundamentos de Estatística</a> 
+        <div class="sidebar-tools-main tools-wide">
+    <a href="https://github.com/MarioDhiego/Book_Quarto_R" rel="" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <div class="dropdown">
+      <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download"><i class="bi bi-download"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./Fundamentos-de-Estatística-.pdf">
+              <i class="bi bi-bi-file-pdf pe-1"></i>
+            Download PDF
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./Fundamentos-de-Estatística-.epub">
+              <i class="bi bi-bi-journal pe-1"></i>
+            Download ePub
+            </a>
+          </li>
+      </ul>
+    </div>
+    <div class="dropdown">
+      <a href="" title="Share" id="quarto-navigation-tool-dropdown-1" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Share"><i class="bi bi-share"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-1">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=|url|">
+              <i class="bi bi-bi-twitter pe-1"></i>
+            Twitter
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://www.facebook.com/sharer/sharer.php?u=|url|">
+              <i class="bi bi-bi-facebook pe-1"></i>
+            Facebook
+            </a>
+          </li>
+      </ul>
+    </div>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Prefácio</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./intro.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introdução a Estatística</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Tabelas.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Representação Tabular</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Graficos.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Representação Gráfica</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Referências</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Índice</h2>
+   
+  <ul>
+  <li><a href="#contextualização" id="toc-contextualização" class="nav-link active" data-scroll-target="#contextualização"><span class="header-section-number">1.1</span> Contextualização</a></li>
+  <li><a href="#etimologia" id="toc-etimologia" class="nav-link" data-scroll-target="#etimologia"><span class="header-section-number">1.2</span> Etimologia</a></li>
+  <li><a href="#aspectos-históricos" id="toc-aspectos-históricos" class="nav-link" data-scroll-target="#aspectos-históricos"><span class="header-section-number">1.3</span> Aspectos Históricos</a></li>
+  <li><a href="#formação-da-estatística-no-brasil" id="toc-formação-da-estatística-no-brasil" class="nav-link" data-scroll-target="#formação-da-estatística-no-brasil"><span class="header-section-number">1.4</span> Formação da Estatística no Brasil</a></li>
+  <li><a href="#conceitos-básicos-em-estatística" id="toc-conceitos-básicos-em-estatística" class="nav-link" data-scroll-target="#conceitos-básicos-em-estatística"><span class="header-section-number">1.5</span> Conceitos Básicos em Estatística</a>
+  <ul class="collapse">
+  <li><a href="#estatística" id="toc-estatística" class="nav-link" data-scroll-target="#estatística"><span class="header-section-number">1.5.1</span> Estatística</a></li>
+  <li><a href="#estatística-descritiva" id="toc-estatística-descritiva" class="nav-link" data-scroll-target="#estatística-descritiva"><span class="header-section-number">1.5.2</span> Estatística Descritiva</a></li>
+  <li><a href="#estatística-indutiva" id="toc-estatística-indutiva" class="nav-link" data-scroll-target="#estatística-indutiva"><span class="header-section-number">1.5.3</span> Estatística Indutiva</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/MarioDhiego/Book_Quarto_R/edit/main/intro.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/MarioDhiego/Book_Quarto_R/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introdução a Estatística</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<div class="progress">
+<div class="progress-bar" style="width: 100%;">
+
+</div>
+</div>
+<section id="contextualização" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="contextualização"><span class="header-section-number">1.1</span> Contextualização</h2>
+<style>
+body{text-align: justify}
+</style>
+<p>Na vasta extensão territorial da região amazônica a governança estatal é desafiada por uma série de questões complexas: a Inclusão social e desenvolvimento humano, acesso a serviços básicos e infraestrutura, exploração de recursos naturais, sustentabilidade da agricultura e agropecuária, conservação da biodiversidade, proteção dos direitos das comunidades indígenas, cooperação internacional e diplomacia ambiental, dentre outras.</p>
+<p>Ao explorar informações sobre setores-chave, como agricultura, turismo e indústria, podemos entender os impactos econômicos e ambientais das atividades nas mesorregiões do Estado do Pará. Ao analisar indicadores de desenvolvimento humano, como educação, renda e acesso a serviços básicos, podemos identificar desigualdades sociais e lacunas que precisam ser abordadas.</p>
+<p>Por meio da transformação e análise de dados é possível subsidiar e formulação políticas públicas que equacionem o crescimento econômico, o desenvolvimento social e a conservação dos recursos naturais.</p>
+<p>Mas em se tratando da região Amazônica esta realidade conceitual demorou a chegar. Houve um tempo não muito distante em que a tomada de decisão era um processo árduo e moroso. Sem a ajuda de computadores e métodos estatísticos acessíveis, os primeiros profissionais se amparavam em intuição, experiência e dados coletados manualmente, muitas vezes limitados e inconsistentes. O processo era lento, sujeito a erros e enviesado por fatores subjetivos.</p>
+<p>Em novo marco de reconhecimento, há alguns anos o Departamento foi elevado à categoria de Faculdade de Estatística, evidenciando sua maturidade acadêmica e relevância para o Estado do Pará e para a região Amazônica.</p>
+<p>O conhecimento estatístico é fundamental para uso estratégico dos dados, tornando-se crucial para o conjunto de processos, mecanismos e estruturas capazes de subsidiar as melhores decisões que promovam políticas públicas sustentáveis alinhadas com o bem-estar social e a preservação ambiental.</p>
+<p>Não existe gestão eficiente sem a Estatística. Ela tem o poder de contribuir exponencialmente com a governança estatal de uma região tão emblemática para o planeta terra. Para tanto, é necessário despertar interesse, cada vez mais existente, para o entendimento e uso correto dos métodos estatísticos.</p>
+<p>Em tempo do Big Data, encontrar “ouro” nos dados existentes de nosso Estado é um caminho desafiador e complexo.</p>
+<p>Mas, afinal, o que é <strong>Estatística</strong>?</p>
+<div class="progress">
+<div class="progress-bar" style="width: 100%;">
+
+</div>
+</div>
+</section>
+<section id="etimologia" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="etimologia"><span class="header-section-number">1.2</span> Etimologia</h2>
+<p>O latim é uma língua antiga que teve uma influência significativa no desenvolvimento de várias linguas modernas, e por isso não seria diferente com a palavra estatística, que deriva do latim.</p>
+<p>Na realidade, pode-se perceber adiante que essa palavra esteve sempre atrelada ao aperfeiçoamento da forma de gerir nações e, mais atualmente, estados-nações. estatística tem raiz na expressão Statisticum Collegium, que significa (Conselho de Estado). O Conselho de Estado era uma instituição específica que existia na Alemanha durante o século XVIII, fundada pelo governo da Baviera. O Statisticum Collegium tinha a finalidade de reunir informações e realizar análises matemáticas relacionadas a assuntos públicos e governamentais. O termo Statisticum foi usado para descrever as atividades e o escopo dessa instituição.</p>
+<p>Entretanto, já no final do século XVIII, o termo alemão Statistik foi introduzido pelo primeira vez por Gottfried Achenwall (1749), professor da Universidade de Gottingen, para designar a disciplina matemática que lidava com a coleta, análise e interpretação de dados. Assim, a palavra Statistik entrou para o vocábulo alemão, influenciada pela evolução e adoção do termo em outros idiomas, como o latim e o italiano. Na Enciclopédia Britânica, o verbete Statístics apareceu em 1797. (STIGLER, 1990).</p>
+<p>A palavra adquiriu o significado de coleta e classificação de dados em geral através de Sir John Sinclair. Um político, escritor e estatístico britânico do século XVIII e início do século XIX. Desta forma, o propósito original da Statistik era fornecer os dados a serem usados pelo governo e outras organizações.</p>
+<p>A coleta de dados sobre estados e localidades continua, em grande parte através de órgãos estatais que cuidam das estatísticas oficiais, realizadas por meio dos Censos. Em particular, os censos fornecem informação regular sobre as populações. De igual modo, a palavra CENSO é derivada do termo latim CENSERE, que significa TAXAR. (STIGLER, 1990).</p>
+<div class="progress">
+<div class="progress-bar" style="width: 100%;">
+
+</div>
+</div>
+</section>
+<section id="aspectos-históricos" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="aspectos-históricos"><span class="header-section-number">1.3</span> Aspectos Históricos</h2>
+<p>A estatística surge em conjunto com a organização das sociedades primitivas, que passaram a ter a necessidade do conhecimento numérico de seus recursos disponíveis. Sendo assim, verifica-se que as primeiras aplicações do pensamento estatístico estavam voltadas para o Estado, fornecendo dados demográficos e econômicos para a criação de políticas públicas, taxação de impostos ou para o (alistamento) serviço militar (EMBRAPA, 2004).</p>
+<p>A contagem desempenha papel fundamental na estatística, pois permite que informações quantitativas sejam registradas e representadas de forma numérica. Embora, inicialmente, tenha permanecido em grande parte pouco visível, até porque pouco eram as coisas que precisavam ser contadas pelos povos primitivos, o ato de contar história da Estatística, e o desenvolvimento da matemática e da contabilidade propiciou o desenvolvimento de um método que mais tarde se tornaria Ciência.</p>
+<p>Um exemplo notável de registros históricos que evidenciou o nascimento da Estatística remonta a 5000 a.C, quando os antigos egípicios mantinham informações quantitativas sobre prisioneiros de guerra (MEMÓRIA, 2004). Há ainda outros indícios arqueológicos apontando para a falta de mão-de-obra relacionada à construção das pirâmides.</p>
+<p>O primeiro censo que se tem notícia na história foi realizado na china, e ocorreu durante o reinado do imperador Yao, por volta do ano 2238 a.C. Esse censo foi realizado com o objetivo de coletar informações sobre a população e as lavouras cultivadas.</p>
+<p>Conforme relato no quarto livro do pentateuco bíblico, no tempo de Moisés, 1400 a.C, Deus ordenara que houvesse a contagem de todos os que poderiam lutar - todos os homens com mais de vinte anos. Um total de 603.550 estavam capacitados para o serviço militar. Ainda dentro do contexto histórico religioso, a narrativa do Evangelho de Lucas aponta que José, junto com a ua esposa Maria, foram de Nazaré até Belém, local onde nasceu Jesus, para serem contados e registrados com fins de tributação e controle administrativo. Este censo foi convocado pelo Imperador romano César Augusto, que havia conquistado aquela região do Oriente Médio (ECHEVESTE et al., 2005).</p>
+<p>Conforme o Cristianismo se disseminava pelo ocidente, a convicção de que o futuro era moldado por um deus se consolidava entre os povos. Desses registros também se utilizaram as civilizações pré-colombianas dos Maias, Incas e Astecas (LOPES e MEIRELES, 2005).</p>
+<p>Em 1085, O Normando Guilherme, ”O Conquistador”, solicitou um levantamento estatístico da Inglaterra, que deveria conter informações sobre terras, proprietários, uso da terra, empregados e animais, dos conquistados anglo-saxões.</p>
+<p>Os resultados deste Censo foram publicados em 1086 no livro intitulado ”Domesday Book”e serviram de base para o cálculo de impostos. Na Enciclopédia Britânica, o verbete STATISTICS apareceu em 1797. (STIGLER, 1990).</p>
+<p>Esses primeiros dados estatísticos representam um marco significativo no desenvolvimento do campo, fornecendo uma base para a análise e compreensão dos eventos sociais e demográficos.</p>
+<div class="progress">
+<div class="progress-bar" style="width: 100%;">
+
+</div>
+</div>
+</section>
+<section id="formação-da-estatística-no-brasil" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="formação-da-estatística-no-brasil"><span class="header-section-number">1.4</span> Formação da Estatística no Brasil</h2>
+<p>A Educação Estatística tem contribuído muito para o desenvolvimento da sociedade contemporânea, proporcionando instrumentos metodológicos para levantamento de possibilidades, análises de variabilidade, melhoria das previsões e agilidade na tomada de decisões em situação de incerteza (LIMA, GIORDANO, VILHENA, 2023).</p>
+<p>Um dos registros mais antigos sobre a introdução da Estatística no Brasil é uma carta régia, datada de 8 de julho de 1800, onde o rei D. João VI solicita ao vice-rei do Estado do Brasil a remessa de dados censitários do Brasil ao reino de Portugal.</p>
+<p>Em 1808, D. João VI criou, a primeira instituição brasileira de ensino superior de tipo técnico, a Academia Real da Marinha, na cidade do Rio de Janeiro. Dois anos depois, é criada também a Academia Real Militar, destinada a formar oficiais da classe de engenheiros, geógrafos e topógrafos. Nessas instituições, o ensino de disciplinas de ciências exatas seria, enfim, encorajado no Brasil, inicialmente com as disciplinas de Física, Matemática e Química, e posteriormente com a Estatística.</p>
+<p>Em 1863, a estatística começa a ganhar espaço no campo acadêmico com bases acadêmicas advindas da França, com a criação da cadeira de “Economia Política, Estatística e Princípios de Direito Administrativo” na Escola Central, à época lecionada por José Maria Paranhos, futuro Visconde de Rio Branco. No ano de 1872, houve o primeiro censo geral da população brasileira feito por José Maria da Silva Paranhos, conhecido como Visconde do Rio Branco (1819- 1880).</p>
+<p>Em 1934, foi criada a Faculdade de Filosofia, Ciências e Letras - FFCL da Universidade de São Paulo – USP, nascendo a cadeira de Estatística Geral e Aplicada pertencentes aos cursos oriundos das Ciências Sociais e Pedagogia (PEREIRA e MORETTIN, 1991).</p>
+<p>Em 1936, tem-se a criação do Instituto Brasileiro de Geográfia e Estatística (IBGE), tornandos-se o Orgão máximo de todas as atividades estatísticas, que envolvem a sociedade Brasileira.</p>
+<p>Em meados de 1946, a Faculdade de Filosofia, Ciências e Letras - FFCL da Universidade de São Paulo – USP, regulamentou a primeira turma de Pósgraduação em Estatística do Brasil (LOPES, 1988).</p>
+<p>Em 1953 duas escolas iniciaram o ensino de estatística no Brasil: uma no Rio de Janeiro, a Escola Nacional de Ciências Estatística (ENCE) e a outra conhecida como Escola de Estatística da Bahia. O surgimento da ideia de acrescentar a Estatística no ensino da matemática nas escolas ocorreu em 1970 na primeira conferência do Comprehensive School Mathematics Program, onde foi proposto que no currículo da matemática fossem incluídas noções de estatística e probabilidade desde o curso secundário. Só em 1972 que surge o primeiro computador brasileiro, que ajudou a dar um grande salto na estatística.</p>
+<p>Na atualidade, o ensino da disciplina encontra-se presente em quase todos os cursos das universidades brasileiras, principalmente devido a sua obrigatoriedade na maioria das grades curriculares de ensino superior, independente da área de formação. Esta obrigatoriedade torna desafiador o ensino da estatística, uma vez que é necessário transmitir o método estatístico até mesmo a cursos onde o conhecimento matemático é menos exigido, por exemplo, em cursos nas áreas das Ciências Humanas e Sociais (LIMA et al, 2023).</p>
+<p>Todo este movimento só chegou ao Brasil muitos anos depois, em 1997, com a publicação dos PCN – Parâmetros Curriculares Nacionais –, com a preocupação com o ensino de Estatística, bem como o seu enfoque se fez presente já nos anos iniciais do Ensino Fundamental, constituindo-se, assim, em um grande avanço para o ensino de Estatística. Nesse documento, foi incorporado oficialmente o “Tratamento da Informação” como um dos blocos de conteúdos da estrutura curricular de Matemática (VILAS BÔAS; KONTI, 2018).</p>
+<p>De fato, com a publicação dos PCN, o ensino brasileiro de Estatística expandiu suas fronteiras e a pesquisa passou a precisar dar conta da ampliação da região de inquérito trazida pelas novas demandas. A realização da primeira conferência internacional em Florianópolis fora palco de encontro e congregação de educadores estatísticos interessados em dar corpo a uma comunidade científica estruturada com vistas a obter avanços na pesquisa relacionada ao ensino da Estatística (SANTOS, 2015).</p>
+<p>Para Samá (2019) no Brasil, no final da década de 1990, com a publicação dos Parâmetros Curriculares Nacionais, a Estatística e a Probabilidade passam a integrar oficialmente a estrutura curricular da disciplina de Matemática na Educação Básica. Este fato impulsionou as pesquisas na área da Educação Estatística, no sentido de contribuir com a inserção dos conceitos relativos à Estatística e à Probabilidade na escola e na formação dos professores que, na maioria, não foram preparados para tanto nos cursos de licenciatura.</p>
+<p>A fim de integrar os pesquisadores interessados na área, em 2000, é criado o grupo de trabalho em Ensino de Estatística e Probabilidade - GT12, durante o primeiro Seminário Internacional de Pesquisa em Educação Matemática (SIPEM), promovido pela Sociedade Brasileira de Educação Matemática (SBEM). Este GT foi concebido no intuito de estudar os processos referentes ao ensino e à aprendizagem de Estatística, o que, segundo ementa do GT12, envolve aspectos cognitivos e afetivos, além da epistemologia dos conceitos estatísticos e o desenvolvimento de estratégias didáticas com vistas a desenvolver o letramento estatístico.</p>
+<p>De acordo com Vilas Bôas e Konti (2018), nos últimos anos, muitos educadores matemáticos e estatísticos têm dedicado grandes segmentos de suas carreiras para aprimorar os materiais e técnicas pedagógicas para a educação estatística. Esse movimento pode ser considerado como base para o que se denomina atualmente de Educação Estatística. Hoje podemos dizer que a Educação Estatística, enquanto área de pesquisa, objetiva estudar e compreender a forma como as pessoas ensinam e aprendem estatística, englobando a epistemologia dos conceitos estatísticos, os aspectos cognitivos e afetivos do ensino e da aprendizagem, bem como o desenvolvimento de metodologias e materiais para o ensino.</p>
+<p>Em 2017, tivemos a promulgação da Base Nacional Comum Curricular - BNCC na qual a incerteza e o tratamento de dados são estudados na unidade temática Probabilidade e Estatística. Como proposta apresenta caráter normativo, estabelecida pela Resolução CNE/CP 2/2017, onde a Estatística e Probabilidade compõem a Unidade Temática na área do conhecimento matemático a ser desenvolvido ao longo da educação Básica.</p>
+<p>A incerteza e o tratamento de dados são estudados na unidade temática Probabilidade e estatística. Ela propõe a abordagem de conceitos, fatos e procedimentos presentes em muitas situações-problema da vida cotidiana, das ciências e da tecnologia. Assim, todos os cidadãos precisam desenvolver habilidades para coletar, organizar, representar, interpretar e analisar dados em uma variedade de contextos, de maneira a fazer julgamentos bem fundamentados e tomar as decisões adequadas. Isso inclui raciocinar e utilizar conceitos, representações e índices estatísticos para descrever, explicar e predizer fenômenos (BRASIL, 2017).</p>
+<p>Dessa forma, constitui-se em num grande avanço para o ensino de Estatística no Ensino fundamental. Em suas diretrizes há a intenção do desenvolvimento de competências para o pensamento e raciocínio estatístico, contribuindo, certamente, para a formação de cidadãos mais conscientes sobre as informações que circulam no meio educacional e no mundo. Estas perspectivas apontam que as pessoas saibam tomar decisões, diante de questões políticas e sociais, pois delas também dependem da leitura e interpretação de informações complexas, muitas vezes contraditórias.</p>
+<p>Nesse desenvolvimento o estudo de algumas noções ganha espaço no ensino nos anos iniciais, como: tabelas, gráficos, quadros, pesquisa etc. e a noção de chance de mais provável, pouco provável, acontecerá com certeza, talvez aconteça, é impossível de acontecer etc. ligadas à introdução de ideias de probabilidade. “Contudo, os professores que lecionam Matemática nos anos iniciais confessam que, quando estudaram Estatísticas e Probabilidade, nos cursos de Pedagogia ou em Matemática, não viram esses conteúdos como objetos a serem ensinados na escola básica, especialmente para alunos da educação infantil e anos iniciais” (LOPES, 2008). Assim os professores em exercício grande parte não tiveram formação adequada para tratar o assunto e em formação continuada se apropriam de métodos de como proceder para lecionar sem se aprofundar nos conhecimentos de base para terem domínio que os possibilitem criarem e não só compilarem tarefas(LIMA et al, 2023).</p>
+<p>Diante disso, para que o cidadão sobre-viva e assimile este mar de estatística é necessário que alguns conceitos sejam trabalhados desde a escola.</p>
+<div class="progress">
+<div class="progress-bar" style="width: 100%;">
+
+</div>
+</div>
+</section>
+<section id="conceitos-básicos-em-estatística" class="level2" data-number="1.5">
+<h2 data-number="1.5" class="anchored" data-anchor-id="conceitos-básicos-em-estatística"><span class="header-section-number">1.5</span> Conceitos Básicos em Estatística</h2>
+<section id="estatística" class="level3" data-number="1.5.1">
+<h3 data-number="1.5.1" class="anchored" data-anchor-id="estatística"><span class="header-section-number">1.5.1</span> Estatística</h3>
+<p>É extremamente difícil definir a Estatística. O número de definições que se encontram é extremamente grande, tendo em vista que seu domínio é muito amplo. Assim, listam-se algumas definições formais acerca do que seria o conceito de Estatística.</p>
+</section>
+<section id="estatística-descritiva" class="level3" data-number="1.5.2">
+<h3 data-number="1.5.2" class="anchored" data-anchor-id="estatística-descritiva"><span class="header-section-number">1.5.2</span> Estatística Descritiva</h3>
+<p>É comum o profissional ou pesquisador defrontar-se com a situação de dispor de tantos dados que se torna difícil absorver completamente a informação que está procurando investigar. Com isso, se torna extremamente difícil captar intuitivamente todas as informações que os dados contêm, sendo necessário, portanto, que as informações sejam reduzidas até o ponto em que se possa interpretá-las mais claramente (MARTINS e DONAIRE, 1979).</p>
+<p>A Estatística Descritiva é um ramo da estatística que aplica várias técnicas para descrever e sumariar um conjunto de dados(TOLEDO e OVALLE, 1995). Stein e Loesch (2008) definem a estatística descritiva como o nome dado ao conjunto de técnicas analíticas utilizadas para resumir certo conjunto de todos os dados coletados numa determinada investigação.</p>
+<p>É a parte da estatística que procura descrever e avaliar certo grupo de dados seja ele a população ou a amostra. Em estatística descritiva têm-se dois métodos que podem ser usados para a apresentação dos dados: Métodos Gráficos e/ou Tabular e Métodos Numéricos, envolvendo apresentação de medidas estatísticas, entre outras.</p>
+<p>O objetivo da Estatística Descritiva é representar de uma forma concisa, sintética e compreensível, a informação contida num conjunto de dados. Esta tarefa, que adquire grande importância quando o volume de dados for grande, concretiza-se na elaboração de tabelas e de gráficos, e no cálculo de medidas ou indicadores que representam convenientemente a informação contida nos dados. A descrição dos dados também tem como objetivo identificar anomalias, até mesmo resultante do registro incorreto de valores, e dados dispersos, aqueles que não seguem a tendência geral do restante do conjunto. Não só nos artigos técnicos direcionados para pesquisadores, mas também nos artigos de jornais e revistas escritos para o público leigo, é cada vez mais freqüente a utilização destes recursos de descrição para complementar a apresentação de um fato, justificar ou referendar um argumento.</p>
+<p>Ao se condensar os dados, perde-se informação, pois não se têm as observações originais. Entretanto, esta perda de informação é pequena se comparada ao ganho que se tem com a clareza da interpretação proporcionada. Ao mesmo tempo que o uso das ferramentas estatísticas vem crescendo, aumenta também o abuso de tais ferramentas.</p>
+<p>É muito comum vermos em jornais e revistas, até mesmo em periódicos científicos, gráficos voluntariamente ou intencionalmente enganosos e estatísticas obscuras para justificar argumentos polêmicos.</p>
+<p>Assim, uma análise descritiva bem conduzida pode evitar vários problemas que podem ocorrer em análises mais complexas, permitindo visualizar muitas características que em outras análises podem passar despercebidas (CAMEY, et al, 2010).</p>
+<div class="progress">
+<div class="progress-bar" style="width: 100%;">
+
+</div>
+</div>
+</section>
+<section id="estatística-indutiva" class="level3" data-number="1.5.3">
+<h3 data-number="1.5.3" class="anchored" data-anchor-id="estatística-indutiva"><span class="header-section-number">1.5.3</span> Estatística Indutiva</h3>
+<p>Na maioria das vezes, é impraticável observar toda uma população, seja pelo custo alto seja por dificuldades operacionais. Examina-se então uma amostra, de preferência bastante representativa, para que os resultados obtidos possam ser generalizados para toda a população. Um experimento pode ter por finalidade a determinação da estimativa de um parâmetro de uma função. Toda conclusão tirada por amostragem, quando generalizada para a população, apresentará um grau de incerteza. Ao conjunto de técnicas e procedimentos que permitem dar ao pesquisador um grau de confiabilidade nas afirmações que faz para a população, baseadas nos resultados das amostras, damos o nome de Inferência Estatística.</p>
+<p>A estatística indutiva ou inferencial é a parte da estatística que, baseando-se em resultados obtidos da análise de uma amostra da população, procura inferir, induzir ou estimar as leis de comportamento da população da qual a amostra foi retirada. Refere-se a um processo de generalização a partir de resultados particulares (CASTANHEIRA, 2005).</p>
+<p>Por exemplo, suponha-se que deseja conhecer o grau de pureza de alumina a ser exportada por um navio no porto de Manaus. Como não se pode verificar esse grau de pureza em toda a população do minério, se pega uma parte como amostra e procedem-se na mesma os testes necessários. Suponha-se que o resultado obtido nesse teste é válido para toda a população.</p>
+<p>Esse processo de generalização, que é caracterizado do método indutivo, está associado a uma margem de incerteza, que se deve ao fato de que a conclusão, que se pretende obter para toda a população analisada, baseia-se em uma amostra do total de observações. A medida de incerteza é tratada mediante técnicas e métodos que se fundamentam na teoria das probabilidades.</p>
+<p>Em suma, para o estabelecimento de inferências ou conclusões sobre um grupo maior (no caso a população) precisa-se usar algo além do que será visto em Estatística Descritiva, é necessário o uso de métodos estatísticos que caracterize a área da estatística conhecida como ”Estatística Indutiva”ou ”Inferência Estatística”.</p>
+<div class="progress">
+<div class="progress-bar" style="width: 100%;">
+
+</div>
+</div>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./index.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Prefácio</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./Tabelas.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Representação Tabular</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>

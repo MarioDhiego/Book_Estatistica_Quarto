@@ -1,0 +1,381 @@
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
+
+# Representação Gráfica
+## Desenvolvimento Histórico
+
+```{=html}
+<style>
+body{text-align: justify}
+</style>
+```
+
+As origens da visualização ou representação estão nos diagramas geométricos, nas tabelas de posição das estrelas e nos mapas. No século XVI, com a expansão marítima da Europa, novas técnicas e instrumentos foram desenvolvidos e, com eles, novos, e mais precisas, forma de apresentação visual do conhcecimento. Até meados do século 17, ocorreram os primeiros mapas e diagramas.
+
+Durante meados de 1600 a 1699, período este chamado de Medições e Teorias, os maiores problemas do século se referiam a medição física do tempo, distância e espaço para astronomia, nevegação e expansão terrotorial. Avannçam as estimativas, as probabilidades, a demografia e todo o campo de estatística. No fim do século os elementos para iniciar um pensamento visual então prontos.
+
+Entre 1700 a 1799, conhecido como das novas fórmulas gráficas, cartógrafos começam a mostrar mais do que a posição geográfica. Até o fim do século aparecem tentativas de mapear informações de geologia, economia, demografia e saúde. A medida que o volume de dados avança, novas fórmulas de visualização aparecem. Inovações tecnológicas como a cor, litografia e imprenssa abrem novos caminhos.
+
+Em 1786, Willian Playfair produziu os primeiros gráficos de linhas, barras e setores.
+
+A primeira metade do século XIX, conhecido com Início da Infografia Moderana (1800 à 1849), foi responsável por uma explosão no crescimento de gráficos estatísticos e de mapeamento temático, graças as inovações obtidas no século anterior. Todas as formas de gráficos estatísticos conhecidas hoje foram desenvolvidas nesta época, na cartografia, mapas simples foram transformados em atlas complexos baseados em grande variedade de dados.
+
+Entre os anos de 1850 à 1900, conhecido como Era de Ouro da Estatística, onde as condições para um rápido crescimento das visualizações estavam estabelecidos. Escritórios de Análises se espalhavam pela Europa com o aumento da importância das informações numéricas para planejamento social, industria, comércio e transporte. A teoria estatística iniciada por GAUSS e LAPLACE deu os meios para fazer sentido a um grande número de dados.
+
+Compreendido entre 1900 à 1949, chamado de Período Negro do Gráficos de Estatística, aconteceram poucas inovações gráficas e o entusiasmo vivido no século passado foi suplantado pelo crescimento da quantificação e modelos formais. Durante esse período, no entanto, tudo que foi alcançado consegue se popularizar, seja no governo, no comércio e nas ciências. A visualização gráfica é consagrada para explicar novas descobertas e teorias.
+
+De 1975 até hoje, o computador é considerado como nova fronteira. As inovações ocorridas nesta época foram muitas e em diversas áreas: o desenvolvimento de softwares e sistemas de computador, altamente interativos e de fácil manipulação, foram a alavanca para tudo.
+
+Com o surgimento da multimídia e da internet nos anos 1990 foram multiplicadas as formas de representar informação de modo dinâmico, explorando animações, gráficos interativos e mapas com escala variável.
+
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
+
+## Autores Importantes
+
+O médico anestesista Britânico John Snow considerado o pai da epidemiologia moderna, em 1854, descobre a fonte transmissora de cólera e com um mapa registrou as coordenadas das ocorrências dos óbitos (SNOW, 1854a);
+
+-   Em 1858, Florence Nightingale, enfermeira britânica produziu o coxcomb diagrams que mostrou as baixas do exército britânico na Guerra da Criméia;
+
+-   Durante o ano de 1869, Charles Joseph Minard, engenheiro civil francês retratou a dizimação do exército de Napoleão durante sua condenada campanha contra a Rússia. Desmonstrando como níveis mais complexos de narratividades podem ser alcançados com uma única visualização estática(MINARD, 1869);
+
+-   No ano de 1914, Willard Brinton engenheiro americano publicou o primeiro livro de visualização para negócios;
+
+-   Em 1952, Mary Eleanor Spear publicou seu livro contendo boas práticas em construção de gráficos baseadas em décadas de serviço no governo Americano;
+
+-   Em 1967, Jacques Bertin, cartógrafo francês publicou o primeiro livro sobre teoria da visualização (Sémiologie graphique: Les diagrames, les réseaux, les cartes), criava um sistema complexo de representação visual, com destaque para a cartografia. A semiologia gráfica era uma proposta arrojada para colocar problemas e apresentar dados de grande complexidade, longe de ser apenas ilustrativa (BERTIN, 1967); O livro era uma síntese de duas décadas de trabalho cotidiano na preparação de mapas para ilustrar livros de história e ciências sociais (GIL e BARLETA, 2015);
+
+-   Em meados de 1970, John Tukey matemático americano foi pioneiro no uso de computadores para visualização e popularizou o conceito de visualização exploratória e confirmatória (TUKEY, 1997);
+
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
+
+## Porque usar Gráficos?
+
+As estatísticas geralmente podem ser melhor compreendidas quando são apresentadas em um gráfico do que em uma tabela. Um gráfico é uma representação
+visual de dados estatísticos, em que os dados são representados por símbolos
+como barras ou linhas.
+
+É uma ferramenta visual muito eficaz, pois exibe os dados de forma rápida e
+fácil, facilita a comparação e pode revelar tendências e relacionamentos dentro
+dos dados.
+
+Um gráfico geralmente assume a forma de uma figura uni ou bidimensional,
+como um gráfico de barras ou um gráfico de linhas. Embora existam gráficos
+tridimensionais disponíveis, eles geralmente são considerados complexos demais
+para serem facilmente compreendidos.
+
+Embora os gráficos fornecam menor grau de detalhes que as tabelas, estes apresentam um ganho na compreenção global dos dados, permitindo que se perceba
+imediatamente da sua forma geral sem deixar de evidenciar alhuns aspectos particulares que sejam de interesse do pesquisador, colocando em evidência as tendências, as ocorrências ocasionais, os valores mínimos e máximos e também as
+ordens de grandeza dos fenômenos que estão sendo observados.
+
+Os gráficos podem ser usados para ilustrar padrões em uma grande quantidade
+de dados ou para comunicar uma descoberta ou mensagem chave. Você deve
+considerar o uso de gráficos se quiser mostrar:
+
+* Comparação: Quantos? Qual item é maior ou menor?
+* Mudanças ao Longo do Tempo: Como uma variável evolui?
+* Distribuição de frequência: Como os itens são distribuídos? Quais são as
+diferenças?
+* Correlação: Duas variáveis estão ligadas?
+* Participação relativa de um todo: como um item se compara ao total
+
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
+
+## Quando usar Gráficos
+
+Um gráfico nem sempre é a ferramenta mais adequada para apresentar informações estatísticas.
+
+Às vezes, um texto e/ou tabela de dados pode fornecer uma explicação melhor
+para o seu público e economizar tempo e esforço consideráveis.
+Você deve reconsiderar o uso de gráficos quando seus dados:
+
+* Estiverem muito dispersos;
+* Têm poucos valores;
+* Ter muitos valores;
+* Mostram pouca ou nenhuma variação
+
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
+
+## Conceitos Básicos de Gráfico
+
+Com palavras, números ou desenhos podem-se mostrar às pessoas interessadas o resultado da pesquisa, antes mesmo de aplicarem-se sobre os dados as
+operações matemáticas, que permitirão a interpretação final por parte da equipe
+encarregada do levantamento estatístico.
+
+A exposição por palavras é dita descritiva, a numérica é também conhecida
+como tabular e, finalmente, os desenhos constituem a exposição gráfica. Um relatório final reúne, quase sempre, as três modalidades de exposição, apresentando: gráficos, para ilustrar ou acentuar determinados itens: tabelas, para resumir massa de dados observados no período de atividades; e palavras, para orientar a leitura, comentar as tabelas analisar os gráficos e concluir o relatório.
+
+Em muitas situações a apresentação gráfica é preferível a apresentação tabular. Os gráficos têm um impacto visual e uma facilidade de interpretação que o
+tornam muitas vezes mais úteis que as tabelas.
+
+A representação gráfica das séries estatísticas tem por finalidade representar
+os resultados obtidos, permitindo que se chegue a conclusões sobre a evolução do
+fenômeno ou sobre como se relacionam os valores da série. A escolha do gráfico
+mais apropriado ficará a critério do analista.
+
+As representações dos dados em sua forma gráfica constituem importantes instrumentos de comunicação rápida, clara e efetiva, poupando, sobretudo, tempo e
+esforço na visualização de dados resumidos, permitindo fixar uma imagem duradoura, daí o largo uso dessas representações em trabalhos científicos atualmente.
+(Ayres, 2003).
+
+A estatística gráfica são representações visuais dos dados estatatísticos que
+devem corresponder, mas nunca substituir as tabelas estatísticas.
+
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
+
+## Classificação dos Gráficos
+### Quanto a Forma
+
+Há três tipos de gráficos, classificados quanto ao critério da forma:
+
+1. Diagramas: os diagramas são gráficos geométricos dispostos em duas dimensões. Os diagramas são os gráficos mais usados na representação de
+séries estatísticas e se apresentam através de uma grande variedade de tipos.
+
+2. Cartogramas: os cartogramas são ilustrações relativas a cartas geográficas,
+largamente difundidas em Geografia, História e Demografia.
+
+3. Estereogramas: os estereogramas representam volumes e são apresentados em três dimensões. Muitas vezes são confeccionados em cartolinas ou
+madeira quando não desenhados em perspectiva.
+
+### Quanto ao Objetivo e Uso
+
+É possível distinguir, de certo modo arbitrariamente, dois objetivos que justificariam o emprego de gráficos. Os gráficos são usados para apresentar visualmente dados numéricos, proporcionando maior facilidade e rapidez de compreensão dos mesmos, ou, então, para apresentar conclusões ou resultados de uma análise. Há portanto, dois tipos de gráficos, conforme o objetivo ou uso a que se destinam: gráficos de informações e gráficos de análise.
+
+
+####  Gráfico de Informação 
+
+São gráficos destinados principalmente ao público em geral, objetivando proporcionar uma visualização rápida e clara da intensidade das modalidades e dos
+valores relativos ao fenômeno observado. São gráficos tipicamente expositivos,
+devendo, por conseguinte, ser o mais o completo possível, dispensando comentários explicativos adicionais. Nos gráficos de informação não se deve prescindir
+dos títulos. Já as legendas podem ser omitidas, desde que as informações desejadas estejam presentes, possibilitando a completa interpretação do gráfico.
+
+
+####  Gráfico de Análise
+
+Os gráficos de análise prestam-se melhor ao trabalho estatístico, fornecendo
+elementos úteis à fase de análise dos dados, sem deixar se ser também informativos. Quando se usam gráficos para apresentar os resultados de uma análise, esses freqüentemente vêm acompanhados de uma tabela. Inclui-se, muitas vezes, um texto dissertativo, chamando a atenção do leitor para os pontos principais revelados pelo gráfico ou pela tabela. Muitos relatórios administrativos, econômicos ou de qualquer outra natureza combinam as três formas de apresentação de dados. Isto porque, na prática, poucas pessoas têm habilidade com números, e as que têm dificuldades consultarão, via de regra, apenas o gráfico. Por outro lado, a maior parte das pessoas nunca examinará as tabelas estatísticas, preferindo analisar os gráficos e eventualmente procurar no texto a informação adicional necessária.
+
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
+
+## Elementos Básicos de Gráficos
+
+Assim como tabelas, os gráficos devem ser referenciados no texto. Se eles
+ocorrem em um trabalho, é porque possuem alguma importância, fornecem alguma informação. Portanto, eles precisam ter alguma explicação ou comentário
+a respeito deles no corpo do trabalho.
+A representação gráfica deve conter determinados elementos que são essenciais para a sua compreensão, sendo esses elementos:
+
+
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
+
+###  Elementos Básicos
+
+* Número: utilizado para identificar o gráfico no texto, sendo sempre precedido da palavra GRÁFICO com o seu número. Por exemplo: GRÁFICO 1,
+GRÁFICO 2 etc, ou de acordo com a numeração do capítulo, GRÁFICO 1.1,
+GRÁFICO 1.2, e assim por diante.
+
+* Título: deve conter designação do fenômeno observado (**O QUE?**) e o local
+(**ONDE?**) e data de ocorrência do mesmo (**QUANDO?**) e (**COMO?**), ficando
+abaixo do gráfico. O título deve preferencialmente ser escrito após o número do gráfico, devendo ser separado por espaço, hífen e espaço em letras
+maiúsculas seguindo o padrão do texto. O título deve estar presente em
+qualquer tipo de representação gráfica a ser escrito com vista a orientar o
+leitor na sua interpretação. Simultaneamente, deve ser conciso, relevante e
+claro, ou seja, conter apenas informação essencial para uma interpretação
+correta do gráfico.
+
+* Fonte: indicação do órgão ou entidade responsável pelo fornecimento dos
+dados usados na elaboração do gráfico. Utilizar letras maiúsculas para escrever FONTE, devendo ser seguida de dois pontos, espaço e o nome da
+fonte utilizada. Quando os dados foram obtidos pelo próprio autor, por
+exemplo, em uma pesquisa e campo, a fonte pode ser escrita como: FONTE:
+o autor.
+
+* Nota: quando necessária, é utilizada para a apresentação de informações
+de natureza geral, esclarecendo o conteúdo ou metodologia utilizada. A
+nota vem em seguida à fonte. A palavra NOTA deve ser escrita em letras
+maiúsculas, devendo ser seguida de dois pontos, espaço e a explicação da
+nota.
+
+* Nota Específica: quando necessária, é utilizada para esclarecer dados sobre um item ou uma parte específica do gráfico; empregam-se chamada,
+indicadas no gráfico, geralmente no titulo ou na legenda. A nota específica
+deve ser chamada por algarismos arábicos entre parênteses.
+
+* Legenda: a legenda é constituída por símbolos e respectivas designinações.
+O procedimento dos sinbolos (cor ou outros) deve ser realizado de modo a
+que não haja lugar para qualquer confusão visual entre eles e, consequentemente, para que exista uma ligação clara entre os simbolos e a componente
+representada. As desiginações, por seu lado, devem ser claras e concisas,
+deixando para notas adjascentes eventuais esclarecimentos. Os símbolos
+devem aparecer na mesma ordem que as respectivas componentes: horizontalmente quando estão lado a lado e verticalmente quando estão umas
+sobre as outras (WALLGREN, 1996). Uma boa legenda deve fazer mais do
+que simplesmente etiquetar as componentes do gráfico. Deve dizer-nos o
+que é importante e qual é o objetivo do gráfico: informar o leitor e obrigar
+quem faz o gráfico a estruturar a informação (CLEVELANDO e MCGILL,
+1984a).
+
+* Escalas: Em um gráfico, as informações que possuem uma escala devem
+ser apresentadas com clareza. Os números da escala devem estar na posição horizontal e na região externa dos eixos. A unidade de medida deve
+aparecer no final de cada linha do gráfico. Caso não seja possível apresentar a escala por completo, pode-se fazer um corte no eixo correspondente
+para informar que a escala não está completa.
+
+* Linhas Auxiliares: um dos elementos gráficos visualmente mais monótonos são as linhas auxiliares. devem, por isso ser suprimidas ou abafadas
+de tal forma que sua presença se torne implícita. Ainda que possam auxiliar a leitura dos dados, a maioria das linhas auxiliares escuras tem um
+grande peso visual, encobrindo muitas vezes, o mais importante do gráfico:
+a informação. Quando foram realmente necessárias deve-se optar por usar
+uma cor neutra e, no caso particular de um fundo branco, a cor cinzenta.
+Em certos caos em particular nas séries temporais, pode ser considerado
+importante incluir linhas auxiliares verticais como auxilio a leitura de valores por forma a complementar a leitura evolutiva da série com a leitura
+de valores em particular. Na maioria dos gráficos de séries temporais, os
+dados mais recentes estão situados à direita e longe das identificações do
+eixo dos valores, normalmente localizados à esquerda, fazendo com que o olho humano tenha que se movimentar alternadamente entre os dados e os
+valores ao longo das margens do gráfico. Esta imprecisão na leitura pode
+ser atenuada posicionando o eixo à direita junto dos dados mais recentes,
+duplicando o eixo, ou posicionando os valores junto das coordenadas respectivas (TUFTE, 1983).
+
+Os gráficos com dois eixos distintos são normalmente utilizados quando
+se têm diferentes unidades de medida ou existem diferenças consideráveis
+de valores nas categorias de uma variável. Este tipo de gráficos deve ser
+evitado dado que é normalmente de difícil interpretação e, em muitos casos, bastante confuso (SCHMID, 1992). Por princípio, deve privilegiar-se
+a escala completa (com início em zero ou noutro valor de referência) em
+nome da honestidade na apresentação. Contudo, essa quebra é admissível nos casos em que a informação apresenta pequenas variações, desde
+que acompanhada por uma simbologia perceptível ao leitor. Para melhor
+compreender os dados na fase da análise exploratória não existe qualquer
+problema em manipular as escalas e extrapolar eventuais variações, mas
+na fase da divulgação, deve existir algum cuidado para não evidenciar graficamente alterações nos dados que na verdade não ocorreram. A quebra
+de escala é um exemplo de como se pode distorcer a mensagem transmitida.
+
+Quando o efeito nos dados é significativamente.
+Quando se representa as informações de qualquer tipo de estudo em forma
+gráfica, precisam-se fazer algumas perguntas, tais como (VERGNAUD, 1987) e
+(WALLGREEN, 1996):
+
+* Representar O Que? Para Quê?
+* Um gráfico Realmente é a Melhor Opção?
+* Qual é o Público Alvo?
+* Qual é o Objetivo do Gráfico?
+* Que Tipo de Gráfico Deve Ser Usado?
+* Como o Gráfico Deve Ser Apresentado?
+* Que Tamanho o Gráfico Deve Ter?
+* Deverá Ser Usado Apenas Um Gráfico?
+* A Qual Meio Técnico Se Deve Recorrer?
+
+Wallgreen(1996) acrescenta que a utilização gráfica apenas se pode consumar
+após serem formuladas, e convenientemente respondidas, as seguintes perguntas:
+
+* O Gráfico é Fácil de Ler?
+* O Gráfico Pode Ser Mal Interpretado?
+* O Gráfico Tem o Tamanho e a Forma Certa?
+* O Gráfico está Localizado no Local Certo?
+* O Gráfico Beneficia por Ser Colorido?
+* A Compreenção do Gráfico Foi Testada com Alguém?
+
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
+
+## Requisitos Fundamentais
+
+A representação gráfica de um fenômeno deve obdecer a certos requisitos fundamentais para serem úteis.
+
+1. Compreensível: permite visualizar as relações entre variáveis.
+2. Necessidade: um gráfico deve ser útil para representar dados, deve haver
+uma necessidade para inserir elementos em um gráfico.
+3. Confiabilidade: os dados devem estar corretamente representados, principalmente no que diz respeito a escala.
+4. Simplicidade: deve ser destituída de detalhes de importância secundária,
+assim como de traço desnecessários que possam levar o observador a uma
+análise morosa ou com erros, ou seja, a uma interpretação equivocada do
+fenômeno em estudo.
+5. Clareza: deve possibilitar uma correta interpretação dos valores representativos do fenômeno em estudo.
+6. Veracidade: deve expressar a verdade sobre o fenômeno em estudo.
+
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
+
+## Diretrizes e Recomendações
+
+* O título do gráfico deve ser o mais claro e completo possível. Quando
+necessário, deve-se acrescentar subtítulos;
+
+* A orientação geral dos gráficos deve ser da esquerda para a direita;
+
+* As quantidades devem ser representadas por grandezas lineares;
+
+* Sempre que possível, a escala vertical há de ser escolhida de modo a aparecer a linha 0 (zero);
+
+* Só devem ser incluídas no desenho as coordenadas indispensáveis para
+guiar o olhar do leitor ao longo da leitura. Um tracejado muito cerrado
+dificulta o exame do gráfico;
+
+* A escala horizontal deve ser lida da esquerda para a direita, e a vertical de
+baixo para cima;
+
+* Os títulos e marcações do gráfico devem ser dispostos de maneira que sejam facilmente lidos, partindo da margem horizontal inferior ou da margem esquerda.
+* Um gráfico deve induzir o observador a pensar sobre o conteúdo e não no
+desenho do gráfico, na tecnologia ou outros atributos.
+
+* Induzir que os olhos do observador comparem diferentes partes dos dados.
+* Revelar diferentes detalhes dos dados, desde a perspectiva global até detalhes particulares (MAKINLAY, 1986).
+
+* Ter um objetivo bastante claro: descrição, exploração, tabulação e decoração.
+
+* Utilize uma linha de referência quando há algum valor importante que deva
+ser visto em todo o gráfico, por exemplo, uma linha média. Cuide para que
+isso não interfira na apresentação do gráfico.
+
+* Elimine da visualização gráficos e textos desnecessários. Uma boa medida
+de quantos elementos são desnecessários em uma figura é a quantidade de
+tinta ou de pixels gastos com itens que não são dados de interesse.
+
+* Explore a utilização de símbolos e de atributos visuais que facilitem a percepção dos dados e dos padrões existentes nos mesmos.
+
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
+
+##  Sugestões de Leitura de um Gráfico
+
+* Declarar qual o fenômeno ou fenômenos representados, a região considerada, o período de tempo, a fonte dos dados, etc;
+* Examinar o tipo de gráfico escolhido, verificar se é o mais adequado, criticar a sua execução, no conjunto e nos detalhes;
+* Analisar cada fenômeno separadamente, fazendo notar os pontos mais em
+evidência, o máximo e o mínimo, assim como as mudanças mais bruscas;
+* Investigar se há uma ”tendência geral”crescente ou decrescente ou, então,
+se o fato exposto é estacionário;
+* Procurar descobrir a existência de possíveis ciclos periódicos, qual o período aproximado, etc.
+* Quando um gráfico for inserido em um texto, recomenda-se que este seja
+destacado tanto do texto que o precede, como do texto imediamente subsequente, por meio de três espaços simples.
+* Com relação a variação das cores num mesmo gráfico é recomendada para
+o caso de gráficos comparativos, dos quais, se dá preferência a pouca variação de cores.
+
+O verdadeiro desafio é saber apresentar os dados de forma interessante e atrativa. Contudo, construir gráficos e mapas estimulantes e cientificamente corretos não é tarefa tão fácil como pode parecer. Não basta ter os dados e saber usar os programas informáticos. É preciso saber transformá-los numa história bem contada e transmitir idéias e fenômenos que dificilmente seriam visíveis de outra forma
+
+
+
+
+
+
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
