@@ -289,7 +289,7 @@ Estatística.
 
 Nesse contexto, o pensamento estatístico pode ser definido como a capacidade
 de utilizar e/ou interpretar, de forma adequada, as ferramentas estatísticas na
-solução problemas. Isto envolve o entendimento da essência dos dados e da possibilidade de fazer inferências, assim como o reconhecimento e a compreensão
+solução problemas. Isto envolve o entendimento da essência dos dados e da possibilidade de fazer inferências, assim como o reconhecimento e a compreensão
 do valor da Estatística como uma disposição para pensar numa perspectiva da
 incerteza (CAZORLA et al, 2017).
 

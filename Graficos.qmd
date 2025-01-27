@@ -28,7 +28,7 @@ Compreendido entre 1900 à 1949, chamado de Período Negro do Gráficos de Estat
 
 De 1975 até hoje, o computador é considerado como nova fronteira. As inovações ocorridas nesta época foram muitas e em diversas áreas: o desenvolvimento de softwares e sistemas de computador, altamente interativos e de fácil manipulação, foram a alavanca para tudo.
 
-Com o surgimento da multimídia e da internet nos anos 1990 foram multiplicadas as formas de representar informação de modo dinâmico, explorando animações, gráficos interativos e mapas com escala variável.
+Com o surgimento da multimídia e da internet nos anos 1990 foram multiplicadas as formas de representar informação de modo dinâmico, explorando animações, gráficos interativos e mapas com escala variável.
 
 ::: progress
 ::: {.progress-bar style="width: 100%;"}
@@ -118,7 +118,7 @@ encarregada do levantamento estatístico.
 A exposição por palavras é dita descritiva, a numérica é também conhecida
 como tabular e, finalmente, os desenhos constituem a exposição gráfica. Um relatório final reúne, quase sempre, as três modalidades de exposição, apresentando: gráficos, para ilustrar ou acentuar determinados itens: tabelas, para resumir massa de dados observados no período de atividades; e palavras, para orientar a leitura, comentar as tabelas analisar os gráficos e concluir o relatório.
 
-Em muitas situações a apresentação gráfica é preferível a apresentação tabular. Os gráficos têm um impacto visual e uma facilidade de interpretação que o
+Em muitas situações a apresentação gráfica é preferível a apresentação tabular. Os gráficos têm um impacto visual e uma facilidade de interpretação que o
 tornam muitas vezes mais úteis que as tabelas.
 
 A representação gráfica das séries estatísticas tem por finalidade representar
@@ -161,7 +161,7 @@ madeira quando não desenhados em perspectiva.
 
 São gráficos destinados principalmente ao público em geral, objetivando proporcionar uma visualização rápida e clara da intensidade das modalidades e dos
 valores relativos ao fenômeno observado. São gráficos tipicamente expositivos,
-devendo, por conseguinte, ser o mais o completo possível, dispensando comentários explicativos adicionais. Nos gráficos de informação não se deve prescindir
+devendo, por conseguinte, ser o mais o completo possível, dispensando comentários explicativos adicionais. Nos gráficos de informação não se deve prescindir
 dos títulos. Já as legendas podem ser omitidas, desde que as informações desejadas estejam presentes, possibilitando a completa interpretação do gráfico.
 
 
@@ -215,7 +215,7 @@ nota vem em seguida à fonte. A palavra NOTA deve ser escrita em letras
 maiúsculas, devendo ser seguida de dois pontos, espaço e a explicação da
 nota.
 
-* Nota Específica: quando necessária, é utilizada para esclarecer dados sobre um item ou uma parte específica do gráfico; empregam-se chamada,
+* Nota Específica: quando necessária, é utilizada para esclarecer dados sobre um item ou uma parte específica do gráfico; empregam-se chamada,
 indicadas no gráfico, geralmente no titulo ou na legenda. A nota específica
 deve ser chamada por algarismos arábicos entre parênteses.
 
@@ -356,13 +356,13 @@ tinta ou de pixels gastos com itens que não são dados de interesse.
 
 ##  Sugestões de Leitura de um Gráfico
 
-* Declarar qual o fenômeno ou fenômenos representados, a região considerada, o período de tempo, a fonte dos dados, etc;
-* Examinar o tipo de gráfico escolhido, verificar se é o mais adequado, criticar a sua execução, no conjunto e nos detalhes;
+* Declarar qual o fenômeno ou fenômenos representados, a região considerada, o período de tempo, a fonte dos dados, etc;
+* Examinar o tipo de gráfico escolhido, verificar se é o mais adequado, criticar a sua execução, no conjunto e nos detalhes;
 * Analisar cada fenômeno separadamente, fazendo notar os pontos mais em
 evidência, o máximo e o mínimo, assim como as mudanças mais bruscas;
-* Investigar se há uma ”tendência geral”crescente ou decrescente ou, então,
+* Investigar se há uma "tendência geral" crescente ou decrescente ou, então,
 se o fato exposto é estacionário;
-* Procurar descobrir a existência de possíveis ciclos periódicos, qual o período aproximado, etc.
+* Procurar descobrir a existência de possíveis ciclos periódicos, qual o período aproximado, etc.
 * Quando um gráfico for inserido em um texto, recomenda-se que este seja
 destacado tanto do texto que o precede, como do texto imediamente subsequente, por meio de três espaços simples.
 * Com relação a variação das cores num mesmo gráfico é recomendada para

@@ -36,10 +36,10 @@ Devido a enorme abrangência da Estatística, procuramos detalhar os pontos mais
 O profissional que domina os princípios estatísticos tem em suas mãos uma poderosa ferramenta que poderá ser sua aliada ao longo da carreira. As aplicações são diversas, e ter a compreensão desse contexto é a primeira grande lição.
 
 
-Este livro tem finalidade didática, sem a preocupação com o aprofundamento dos assuntos, o que provavelmente afastaria os estudantes iniciantes leigos no assunto. Para tanto, foi escrito utilizando linguagem de programação open source chamada $\LaTeX$ (é um conjunto de comandos adicionais (macros) para o código $\TeX$), elaborado em meados da década de 80 por Leslie Lamport. Em sua modernidade, utilizou-se um "Ambiente de Desenvolvimento Integrado(IDE)"para manipulação dos scripts, chamado OvearLeaf.
+Este livro tem finalidade didática, sem a preocupação com o aprofundamento dos assuntos, o que provavelmente afastaria os estudantes iniciantes leigos no assunto. Para tanto, foi escrito utilizando linguagem de programação open source chamada \LaTeX (é um conjunto de comandos adicionais (macros) para o código \TeX), elaborado em meados da década de 80 por Leslie Lamport. Em sua modernidade, utilizou-se um "Ambiente de Desenvolvimento Integrado(IDE)"para manipulação dos scripts, chamado OvearLeaf.
 
 
-Para facilitar a análise dos dados e a construção dos gráficos foram introduzidos vários exemplos elaborados com os recursos computacionais do Software Estatístico open source R4.3.1 versão 64 bit for Windows.
+Para facilitar a análise dos dados e a construção dos gráficos foram introduzidos vários exemplos elaborados com os recursos computacionais do Software Estatístico open source R 4.3.1 versão 64 bit for Windows.
 
 
 ::: progress
@@ -50,7 +50,7 @@ Para facilitar a análise dos dados e a construção dos gráficos foram introdu
 
 # Agradecimentos {.unnumbered}
 
-Gostaríamos de expressar nossos mais sinceros agradecimentos a todas as pessoas que contribuíram para a produção deste livro., em especial ao Excelentíssimo Governador Helder Zaluth Barbalho por ter um visão estratétiga clara para o desenvolvimento do Estado do Pará e o compromisso com a sustentabilidade, atuando incansavelmente para o cresscimento econômico e social da região amazônica sem desconsiderara a preservação do meio ambiente e a valorização da Ciência, reconhecendo que a Estatística tem papel fundamental neste desenvolvimento siustentável almejado.
+Gostaríamos de expressar nossos mais sinceros agradecimentos a todas as pessoas que contribuíram para a produção deste livro, em especial ao Excelentíssimo Governador Helder Zaluth Barbalho por ter um visão estratétiga clara para o desenvolvimento do Estado do Pará e o compromisso com a sustentabilidade, atuando incansavelmente para o cresscimento econômico e social da região amazônica sem desconsiderara a preservação do meio ambiente e a valorização da Ciência, reconhecendo que a Estatística tem papel fundamental neste desenvolvimento siustentável almejado.
 
 Expressamos nossa gratidão à Secretaria de Segurança Pública do Estado do Pará que apoiou e, parcialmente, financiou este projeto. O compromisso com a sociedade e o desenvolvimento do setor governamental do Estado do Pará é inestimável. Esperamos que este compêndio seja um recurso valioso para todos os servidores públicos que buscam se capacitar para a tomada de decisões embasadas em dados, promovendo a governança eficiente e sustentável tão almejada em nossa Região Amazônica.
 

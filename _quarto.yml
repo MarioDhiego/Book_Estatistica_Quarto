@@ -44,8 +44,13 @@ format:
     toc-title: Índice
     toc-location: right
   pdf:
-    documentclass: scrreport
+    documentclass: scrreprt
+    fig-pos: "H"
+    number-sections: true
+    pdf-engine: xelatex
+    fontsize: 12pt
   epub:
     cover-image: cover.png
-abstract: "O Livro Fundamentos de Estatística na Gestão Pública Paraense esta dividivo em 4 capítulos, contemplando os conceitos fundamentais de Estatítica, as principais regras de representação tabular e grafica, detalhando os principais métodos de amostragem e, as medidas mais utilizadas em relatórios na area publica, tais como: média, moda, mediana e quartis.**"
+abstract: "O Livro Fundamentos de Estatística na Gestão Pública Paraense esta dividivo em 4 capítulos, contemplando os conceitos fundamentais de Estatítica, as principais regras de representação tabular e grafica, detalhando os principais métodos de amostragem e, as medidas mais utilizadas em relatórios na area publica, tais como: média, moda, mediana e quartis."
 
+lang: pt
